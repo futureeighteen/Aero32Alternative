@@ -1,4 +1,4 @@
-# Aero32Alternative
+# Aero32AlternativeCursor
 Resized windows default cursors for 1080p or smaller screens at 100 DPI. 
 
 `Hello fellow internet dweller, do you also lowkey have OCD? 
