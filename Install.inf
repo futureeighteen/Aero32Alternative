@@ -1,0 +1,58 @@
+; Aero 32 Alternative - Cursor Scheme Installer
+; Right-click this file and choose "Install" to add the scheme.
+; Afterwards: Settings > Mouse > Additional mouse options > Pointers
+;             tab > Scheme dropdown > "Aero 32 Alternative"
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%Arrow%,%10%\%CUR_DIR%\%Help%,%10%\%CUR_DIR%\%AppStarting%,%10%\%CUR_DIR%\%Wait%,,,%10%\%CUR_DIR%\%NWPen%,%10%\%CUR_DIR%\%No%,%10%\%CUR_DIR%\%SizeNS%,%10%\%CUR_DIR%\%SizeWE%,%10%\%CUR_DIR%\%SizeNWSE%,%10%\%CUR_DIR%\%SizeNESW%,%10%\%CUR_DIR%\%SizeAll%,%10%\%CUR_DIR%\%UpArrow%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Pin%,%10%\%CUR_DIR%\%Person%"
+
+[Scheme.Cur]
+aero_arrow.cur
+aero_helpsel.cur
+aero_working.ani
+aero_busy.ani
+aero_pen.cur
+aero_unavail.cur
+aero_ns.cur
+aero_ew.cur
+aero_nwse.cur
+aero_nesw.cur
+aero_move.cur
+aero_up.cur
+aero_link.cur
+aero_pin.cur
+aero_person.cur
+
+[Strings]
+SCHEME_NAME = "Aero 32 Alternative"
+CUR_DIR     = "Cursors\Aero32Alternative"
+
+; Cursor role -> file. Crosshair (Precision Select) and IBeam (Text
+; Select) are skipped entirely (left as blank fields in the comma
+; list above) since this pack doesn't include them -- Windows will
+; just keep the user's existing cursor for those two.
+Arrow       = "aero_arrow.cur"
+Help        = "aero_helpsel.cur"
+AppStarting = "aero_working.ani"
+Wait        = "aero_busy.ani"
+NWPen       = "aero_pen.cur"
+No          = "aero_unavail.cur"
+SizeNS      = "aero_ns.cur"
+SizeWE      = "aero_ew.cur"
+SizeNWSE    = "aero_nwse.cur"
+SizeNESW    = "aero_nesw.cur"
+SizeAll     = "aero_move.cur"
+UpArrow     = "aero_up.cur"
+Hand        = "aero_link.cur"
+Pin         = "aero_pin.cur"
+Person      = "aero_person.cur"
